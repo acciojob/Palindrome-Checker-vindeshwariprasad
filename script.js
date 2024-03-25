@@ -3,7 +3,7 @@
 function palindrome(str){
 	let a = ""
 	for (let s of str){
-		if (s!===" "){
+		if (s!==" "){
 			a+=s.toLowerCase();
 		}
 		
