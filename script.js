@@ -12,7 +12,7 @@ function palindrome(str){
 	let i = 0;
 	let j = n-1;
 	while (j>i){
-		if (a[i]!===a[j]){
+		if (a[i]!==a[j]){
 			return false;
 		}
 		i++;
